@@ -21,5 +21,5 @@ class Config_Manager:
                 json.dump(self.default_config, f, ensure_ascii=False, indent=4)
             sys.exit("No (or corrupt) config")
 
-    def get_config_path(self):
-        return self.config_path
+    def print_config_path(self):
+        print(self.config_path)
