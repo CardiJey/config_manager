@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "config_manager"
+authors = [{name = "Joris Yidong Scholl", email = "joris.scholl@posteo.de"}]
+version = "0.0.1"
+description = "A small package to help me organize my settingsd"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
