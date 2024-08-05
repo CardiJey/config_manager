@@ -9,3 +9,9 @@ version = "0.0.1"
 description = "A small package to help me organize my settingsd"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+  "platformdirs==4.2.2"
+]
+
+[project.urls]
+Home = "https://homepage.ruhr-uni-bochum.de/joris.scholl/"
