@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "config_manager"
 authors = [{name = "Joris Yidong Scholl", email = "joris.scholl@posteo.de"}]
-version = "0.0.2"
+version = "0.0.3"
 description = "A small package to help me organize my settingsd"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
