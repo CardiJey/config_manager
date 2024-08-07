@@ -18,7 +18,7 @@ class Config_Manager:
         except:
             print("No (or corrupt) config file found. Default config file created at {0}. Please edit it and rerun.".format(self.config_path))
             os.makedirs(self.data_dir, exist_ok=True)
-            for folder in folders_to_create:
+            for folder in self.folders_to_create:
                 os.makedirs(os.path.join(self.data_dir, folder), exist_ok=True)
             with open(self.config_path, 'w', encoding='utf-8') as f:
                 json.dump(self.default_config, f, ensure_ascii=False, indent=4)
